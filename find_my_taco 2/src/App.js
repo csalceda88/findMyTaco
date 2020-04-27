@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation';
-import Signin from './components/SignIn/SignIn';
+import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import Logo from './components/Logo/logo';
 import Map from './components/Map/Map';
@@ -43,6 +43,10 @@ class App extends Component {
     }})
   }
 
+  onInputChange = (event) => {
+    this.setState({input: event.target.value});
+  }
+
   onRouteChange = (route) => {
     if (route === 'signout') {
       this.setState({isSignedIn: false})
@@ -63,7 +67,7 @@ class App extends Component {
         { route === 'home'
           ? <div>
               <Map />
-              <Logo id="Logo" />
+              <Logo />
             </div>
           : (
              route === 'signin'
