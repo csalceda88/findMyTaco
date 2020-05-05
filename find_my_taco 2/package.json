@@ -15,10 +15,10 @@
     "react-particles-js": "^3.1.0",
     "react-redux": "^7.2.0",
     "react-scripts": "^3.4.1",
-    "ç": "^0.1.4",
     "redux": "^4.0.5",
     "stringify": "^5.2.0",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "ç": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
