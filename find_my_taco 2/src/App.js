@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation';
-import Signin from './components/Signin/SignIn';
+import Signin from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
 import Logo from './components/Logo/logo';
 import FoodTruck  from './components/FoodTruck/foodtruck';
