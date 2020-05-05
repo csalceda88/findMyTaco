@@ -8,7 +8,7 @@ const Profile = () => {
               <h1>Jose_CaliBoy</h1>
               <p class="title">LEVEL: Compita</p>
               <p></p>
-              <p><button>LogOut</button></p>
+              <p><button>My FAVORITES</button></p>
               </div>
             );
 }
