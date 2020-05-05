@@ -11,6 +11,11 @@ const FoodTruck = () => {
                 <div id="foodtruck-picture" className="foodtruck-picture">
                     <img src="https://rh-vendoradmin.s3.amazonaws.com/trucks/original/21672/5bc8ce46-e920-47cd-a3e2-1b3d46204482.jpg"/>
                 </div>
+                <div>
+                    <p className="foodtruck-info"><b>Address:</b>  3111 E Greenway Rd, Phoenix, AZ</p>
+                    <p className="foodtruck-info"><b>Phone:</b>  (Not available)</p>
+                    <p className="foodtruck-info"><b>Payment method: All credit cards!</b> Cow cheek, cilantro, and onion</p>
+                </div>
             </section>
             <section id="ft-right" className="ft-right">
                 <div id="food-menu" className="food-menu">

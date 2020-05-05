@@ -35,6 +35,13 @@
     margin: auto;
 }
 
+.foodtruck-info {
+    font-size: 1.5vh;
+    text-align: left;
+    width: 29vw;
+    margin-left: 1em;
+}
+
 img {
     width: 30vw;
     margin: auto;
