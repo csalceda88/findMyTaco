@@ -1,21 +1,25 @@
-.container {
+#container {
     width: 90vw;
-    position: relative;
+    height: 90vw;
+    margin: auto;
 }
 .ft-left {
     background-color: rgb(238,85,68, .86);
-    width: 40vw;
+    border-radius: 3ex;
+    width: 36vw;
     position: static;
     float: left;
-    padding: 2vw;
+    padding: 1vw;
 }
 
 .ft-right {
     background-color: rgb(238,85,68, .86);
-    width: 50vw;
+    border-radius: 3ex;
+    width: 46vw;
     position: static;
     float: left;
     padding: 2vw;
+    margin-left: 1vw;
 }
 
 .foodtruck-name {
@@ -27,7 +31,7 @@
 }
 
 .foodtruck-picture {
-    width: 36vw;
+    width: 30vw;
     margin: auto;
 }
 
@@ -36,27 +40,55 @@ img {
     margin: auto;
 }
 
+.food-menu {
+    width: 42vw;
+}
+
 .food-menu h3 {
-    font-family: Cochin;
+    font-family: 'Gill Sans';
     color: white;
     font-size: 3vh;
+    float: left;
+    width: 12vw;
 }
 
 .reviews h3 {
-    font-family: Cochin;
-    color: rgb(0,85,68);
+    font-family: 'Gill Sans';
+    color: rgb(64, 241, 198);
     font-size: 3vh;
+    float: left;
+    width: 12vw;
 }
 
 ul {
     list-style-type: none;
-    font-family: 'Arial Narrow';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    width: 29vw;
+    justify-content: left;
 }
 
 
 h5 {
     font-family: 'Arial Narrow Bold';
-    font-size: 2.5vh;
+    font-size: 2.7vh;
     margin-bottom: 1em;
     margin-left: -1em;
+}
+
+.dish-type {
+    text-align: left;
+}
+
+.dish-description {
+    text-align: right;
+    margin-top: -0.2em;
+    font-size: 1.6vh;
+    font-style: italic;
+}
+
+.single-list {
+    background-color: rgba(200, 210, 209, .7);
+    border-radius: 1ex;
+    height: 3em;
 }
