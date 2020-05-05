@@ -17,7 +17,12 @@ const particlesOptions = {
         enable: true,
         value_area: 800
       }
+    },
+    line_linked: {
+        color: "#ea5e51",
+        opacity: .3,
     }
+
   }
 }
 
