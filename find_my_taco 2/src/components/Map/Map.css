@@ -1,4 +1,6 @@
-const mapStyles = {
-    width: '100%',
-    height: '100%',
-  };
+.mapimage{
+  margin: 0; 
+  padding: 0;
+  border: 1px solid #888;
+  width: 30%;
+}
