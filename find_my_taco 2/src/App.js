@@ -6,6 +6,7 @@ import Register from './components/Register/Register';
 import Logo from './components/Logo/logo';
 import FoodTruck  from './components/FoodTruck/foodtruck';
 import Map from './components/Map/Map';
+import Profile from './components/Profile/Profile';
 
 import './App.css';
 
@@ -61,6 +62,8 @@ class App extends Component {
       this.setState({isSignedIn: true})
     } else if (route === 'foodtruck') {
       this.setState({isSignedIn: true})
+    } else if (route === 'Profile') {
+      this.setState({isSignedIn: true})
     }
     this.setState({route: route});
   }
@@ -75,6 +78,8 @@ class App extends Component {
       divcontent = <Logo />;
     } else if (route === 'foodtruck') {
       divcontent = <FoodTruck />;
+    } else if (route === 'profile') {
+      divcontent = <Profile />;
     } else if (route === 'signin') {
       divcontent = <Signin loadUser={this.loadUser} onRouteChange={this.onRouteChange}/>;
     } else if (route === 'register') {
